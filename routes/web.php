@@ -18,3 +18,7 @@ Route::get('/', function () {
 route::get('/hello', function(){
 	return 'hello PHP1808E';
 });
+
+route::get('/hi', function(){
+	return "this is bạn A";
+});
